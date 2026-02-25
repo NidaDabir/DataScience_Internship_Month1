@@ -1,22 +1,24 @@
-# Object Counter using OpenCV
+# Month 2: Computer Vision using OpenCV
 
-## Objective
-Count moving objects in video using OpenCV.
+---
 
-## Steps Performed
+## Task 1: Object Counter
 
-• Loaded video file  
-• Converted to grayscale  
-• Applied threshold  
-• Created mask  
-• Counted objects  
-• Displayed object count on video  
+• Detected moving objects using background subtraction
+• Counted objects in video
+• Displayed real-time object count
 
-## Tools Used
+---
 
-Python  
-OpenCV  
+## Task 2: Face Detection
 
-## Output
+• Used Haar Cascade Classifier
+• Detected faces in video and webcam
+• Drew bounding boxes around faces
+• Real-time face detection achieved
 
-Displays moving objects count in video
+Technologies used:
+
+• Python
+• OpenCV
+
