@@ -17,6 +17,15 @@
 • Drew bounding boxes around faces
 • Real-time face detection achieved
 
+
+## Task 3 – Motion Detection
+
+• Detects motion using webcam
+• Uses frame difference technique
+• Draws rectangle around motion
+
+---
+
 Technologies used:
 
 • Python
