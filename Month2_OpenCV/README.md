@@ -33,7 +33,8 @@ Technologies used:
 
 ---
 
-Task 4: Spam Detection using Machine Learning
+## Task 4: Spam Detection using Machine Learning
+
 📌 Overview
 
 This project detects whether an SMS message is Spam or Ham (Not Spam) using Machine Learning and Natural Language Processing (NLP) techniques.
