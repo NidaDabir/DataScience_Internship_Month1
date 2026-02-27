@@ -52,18 +52,19 @@ It uses TF-IDF Vectorization and Multinomial Naive Bayes algorithm for classific
 • Visualized results using Confusion Matrix
 
 🧠 Machine Learning Workflow
-Step 1: Data Loading
+
+## Step 1: Data Loading
 
 Loaded SMS dataset and assigned column names.
 
-Step 2: Data Preprocessing
+## Step 2: Data Preprocessing
 
 Converted labels:
 
 • ham → 0
 • spam → 1
 
-Step 3: Feature Extraction
+## Step 3: Feature Extraction
 
 Used:
 
@@ -71,26 +72,26 @@ TF-IDF Vectorizer
 
 To convert text into numerical format.
 
-Step 4: Train Test Split
+## Step 4: Train Test Split
 
 Split dataset:
 
 • 80% Training
 • 20% Testing
 
-Step 5: Model Training
+## Step 5: Model Training
 
 Algorithm used:
 
 Multinomial Naive Bayes
 
-Step 6: Model Evaluation
+## Step 6: Model Evaluation
 
 Accuracy achieved:
 
 96.68%
 
-Step 7: Confusion Matrix
+## Step 7: Confusion Matrix
 
 Visualized prediction performance using heatmap.
 
