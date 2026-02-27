@@ -1,126 +1,137 @@
-# Month 2: Computer Vision using OpenCV
+# Month 2: Computer Vision and Machine Learning Projects
+
+This repository contains all tasks completed during **Month 2 Internship Program**, focusing on **Computer Vision using OpenCV** and **Machine Learning using Python and Scikit-Learn**.
 
 ---
 
-## Task 1: Object Counter
+# Task 1: Object Counter
 
-• Detected moving objects using background subtraction
-• Counted objects in video
-• Displayed real-time object count
+### Description:
+Built an Object Counter using OpenCV background subtraction.
 
----
+### Features:
 
-## Task 2: Face Detection
+• Detects moving objects in video  
+• Counts total objects  
+• Displays object count in real-time  
 
-• Used Haar Cascade Classifier
-• Detected faces in video and webcam
-• Drew bounding boxes around faces
-• Real-time face detection achieved
+### Technologies:
 
-
-## Task 3 – Motion Detection
-
-• Detects motion using webcam
-• Uses frame difference technique
-• Draws rectangle around motion
+Python, OpenCV
 
 ---
 
-Technologies used:
+# Task 2: Face Detection
 
-• Python
-• OpenCV
+### Description:
+Implemented real-time face detection using Haar Cascade Classifier.
+
+### Features:
+
+• Detects faces from webcam  
+• Draws bounding box around face  
+• Real-time detection  
+
+### Technologies:
+
+Python, OpenCV
 
 ---
 
-## Task 4: Spam Detection using Machine Learning
+# Task 3: Motion Detection
 
-📌 Overview
+### Description:
+Developed Motion Detection system using frame differencing technique.
 
-This project detects whether an SMS message is Spam or Ham (Not Spam) using Machine Learning and Natural Language Processing (NLP) techniques.
+### Features:
 
-It uses TF-IDF Vectorization and Multinomial Naive Bayes algorithm for classification.
+• Detects motion from webcam  
+• Draws rectangle around motion  
+• Real-time motion tracking  
 
-⚙️ Features
+### Technologies:
 
-• Loaded SMS dataset from TSV file
-• Cleaned and prepared text data
-• Converted text into numerical features using TF-IDF
-• Trained Machine Learning model (Naive Bayes)
-• Predicted spam and ham messages
-• Achieved 96.68% accuracy
-• Visualized results using Confusion Matrix
+Python, OpenCV
 
-🧠 Machine Learning Workflow
+---
 
-## Step 1: Data Loading
+# Task 4: Spam Detection using Machine Learning
 
-Loaded SMS dataset and assigned column names.
+### Description:
 
-## Step 2: Data Preprocessing
+Built SMS Spam Detection model using Machine Learning and NLP.
 
-Converted labels:
+### Features:
 
-• ham → 0
-• spam → 1
+• Text preprocessing  
+• TF-IDF Feature Extraction  
+• Naive Bayes Classification  
+• 96% Accuracy achieved  
+• Confusion Matrix visualization  
 
-## Step 3: Feature Extraction
+### Technologies:
 
-Used:
+Python  
+Scikit-Learn  
+Pandas  
+Matplotlib  
+Seaborn  
 
-TF-IDF Vectorizer
+---
 
-To convert text into numerical format.
+# Task 5: Image Classification (Cats vs Dogs)
 
-## Step 4: Train Test Split
+### Description:
 
-Split dataset:
+Built Image Classification model using Support Vector Machine (SVM).
 
-• 80% Training
-• 20% Testing
+### Features:
 
-## Step 5: Model Training
+• Image preprocessing  
+• Feature extraction  
+• Model training using SVM  
+• Predicts Cat or Dog  
+• Achieved 100% accuracy  
 
-Algorithm used:
+### Technologies:
 
-Multinomial Naive Bayes
+Python  
+OpenCV  
+Scikit-Learn  
+NumPy  
 
-## Step 6: Model Evaluation
+---
 
-Accuracy achieved:
+# Folder Structure
+Month2_OpenCV
+│
+├── Task1_Object_Counter
+├── Task2_Face_Detection
+├── Task3_Motion_Detection
+├── Task4_Spam_Detection
+├── Task5_Image_Classification
 
-96.68%
 
-## Step 7: Confusion Matrix
 
-Visualized prediction performance using heatmap.
+---
 
-📊 Result
+# Internship Information
 
-Model successfully detects spam messages with high accuracy.
+Completed as part of **Data Science Internship Program**
 
-🛠 Technologies Used
+---
 
-• Python
-• Pandas
-• NumPy
-• Scikit-learn
-• Matplotlib
-• Seaborn
-• NLP (TF-IDF)
+# Author
 
-📁 Files Included
+Nida Dabir
 
-• spam_detection.ipynb → Main Notebook
-• sms.tsv → Dataset
-• README.md → Project Documentation
+---
 
-🎯 Conclusion
+# Status
 
-This project demonstrates how Machine Learning can be used for:
+Month 2 Completed Successfully
 
-• Spam filtering
-• Text classification
-• NLP based prediction
 
-    
+
+
+
