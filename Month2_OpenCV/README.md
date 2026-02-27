@@ -104,11 +104,17 @@ NumPy
 
 # Folder Structure
 Month2_OpenCV
+
 │
+
 ├── Task1_Object_Counter
+
 ├── Task2_Face_Detection
+
 ├── Task3_Motion_Detection
+
 ├── Task4_Spam_Detection
+
 ├── Task5_Image_Classification
 
 
